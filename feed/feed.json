@@ -1,0 +1,14 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "株式会社　志賀重機",
+	"language": "jp",
+	"home_page_url": "https://shigajuki.co.jp/",
+	"feed_url": "https://shigajuki.co.jp/feed/feed.json",
+	"description": "株式会社　志賀重機",
+	"author": {
+		"name": "Your Name Here",
+		"url": "https://example.com/about-me/"
+	},
+	"items": [
+	]
+}

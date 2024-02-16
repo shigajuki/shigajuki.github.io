@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="jp">
+	<title>株式会社　志賀重機</title>
+	<subtitle>株式会社　志賀重機</subtitle>
+	<link href="https://shigajuki.co.jp/feed/feed.xml" rel="self"/>
+	<link href="https://shigajuki.co.jp/"/>
+	<updated>2024-02-16T05:42:46Z</updated>
+	<id>https://shigajuki.co.jp/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+</feed>

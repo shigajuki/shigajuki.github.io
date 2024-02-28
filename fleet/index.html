@@ -144,10 +144,12 @@
 <script>
   function closeLightbox(){
     document.getElementById("lightbox").style.display = 'none';
+    document.body.style.overflow = 'auto';
   }
   function openLightbox(pdfName) {
     document.getElementById("lightbox").style.display = 'block';
     document.getElementById("embedded-pdf").setAttribute("src", "/img/" + pdfName);
+    document.body.style.overflow = 'hidden';
   }
 </script>
 

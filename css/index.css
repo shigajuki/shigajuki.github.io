@@ -1,3 +1,8 @@
+#lightbox {
+	-webkit-overflow-scrolling: touch !important;
+	overflow: visible !important;
+}
+
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;

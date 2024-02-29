@@ -90,7 +90,7 @@
         </div>
         <div class="w-100 w-60-ns pl3-ns">
             <h3 class="f5 f4-ns mb0 black-90 mt0">Tadano 16tR：1台</h3>
-            <h3 class="f6 f5 fw4 mt2 black-60  ">GR-160</h3>
+            <h3 class="f6 f5 fw4 mt2 black-60  " onclick="openLightbox('16tA.pdf')">GR-160N</h3>
         </div>
       </div>
     </a>
@@ -104,8 +104,8 @@
         </div>
         <div class="w-100 w-60-ns pl3-ns">
             <h3 class="f5 f4-ns mb0 black-90 mt0">Tadano 13tR：2台</h3>
-            <h3 class="f6 f5 fw4 mt2 black-60  ">GR-130</h3>
-             <h3 class="f6 f5 fw4 mt2 black-60  ">GR-130</h3>
+            <h3 class="f6 f5 fw4 mt2 black-60  " onclick="openLightbox('13tB.pdf')">GR-130N </h3>
+             <h3 class="f6 f5 fw4 mt2 black-60  " onclick="openLightbox('13tA.pdf')">GR-130N</h3>
         </div>
       </div>
     </a>
@@ -120,7 +120,7 @@
         </div>
         <div class="w-100 w-60-ns pl3-ns">
             <h3 class="f5 f4-ns mb0 black-90 mt0">Tadano 12tR：1台</h3>
-            <h3 class="f6 f5 fw4 mt2 black-60  ">GR-120</h3>
+            <h3 class="f6 f5 fw4 mt2 black-60  " onclick="openLightbox('12t1.pdf')">GR-120N</h3>
         </div>
       </div>
     </a>
@@ -153,8 +153,8 @@
     document.body.style.overflow = 'auto';
   }
   function openLightbox(pdfName) {
-    document.getElementById("lightbox").style.display = 'block';
     document.getElementById("embedded-pdf").setAttribute("src", "/img/" + pdfName);
+    document.getElementById("lightbox").style.display = 'block';
     document.body.style.overflow = 'hidden';
   }
 </script>
